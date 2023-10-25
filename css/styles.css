@@ -95,6 +95,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--Dark-color);
   padding: 24px 0 24px;
+  display: inline-block;
 }
 .navigation {
   list-style: none;
@@ -109,6 +110,8 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--Text-color);
+  display: inline-block;
+  padding: 24px 0 24px;
 }
 .contact:hover {
   color: var(--Pressed_state-color);
@@ -392,6 +395,9 @@ img {
   height: 16px;
   fill: #f4f4fd;
 }
+.social-network-footer-svg {
+  fill: #f4f4fd;
+}
 .section-customers {
   padding-top: 120px;
   margin: 0 auto;
@@ -607,4 +613,5 @@ img {
   height: 4px;
   background-color: var(--Pressed_state-color);
   border-radius: 2px;
+  width: 100%;
 }
