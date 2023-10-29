@@ -641,20 +641,8 @@ img {
   justify-content: flex-start;
 }
 .form {
-  display: flex;
   flex-direction: column;
 }
-label {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-input {
-  padding: 4px;
-  font-family: inherit;
-}
-
 .email-input-footer {
   display: flex;
   align-items: center;
@@ -705,6 +693,7 @@ input {
 }
 .modal-privacy-container {
   margin-bottom: 24px;
+  display: flex;
 }
 .form-name {
   font-size: 12px;
@@ -792,12 +781,13 @@ input {
   background-color: var(--Pressed_state-color);
   border: none;
   fill: var(--Light-color);
-  fill: var(--Pressed_state-color);
 }
+
 .modal-link {
   color: var(--Primary_Brand-color);
 }
 .modal-button {
+  justify-content: center;
   display: block;
   padding: 16px 32px;
   min-width: 169px;
