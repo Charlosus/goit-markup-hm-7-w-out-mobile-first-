@@ -615,3 +615,17 @@ img {
   border-radius: 2px;
   width: 100%;
 }
+.subscribe-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--Primary_Brand-color);
+  color: #ffffff;
+  font-weight: 500;
+}
+.footer-subscribe {
+  justify-content: flex-start;
+}
