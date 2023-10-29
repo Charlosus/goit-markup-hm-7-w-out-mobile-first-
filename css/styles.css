@@ -629,3 +629,17 @@ img {
 .footer-subscribe {
   justify-content: flex-start;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input {
+  padding: 4px;
+  font-family: inherit;
+}
