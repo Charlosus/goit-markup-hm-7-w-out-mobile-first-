@@ -507,6 +507,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .modal-close-button {
   position: absolute;
@@ -642,4 +643,30 @@ label {
 input {
   padding: 4px;
   font-family: inherit;
+}
+
+.email-input-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: var(--White_background-color);
+}
+.footer-email-input {
+  color: var(--White_background-color);
+}
+.newsletter-email {
+  color: var(--White_background-color);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+  letter-spacing: 0.48px;
+  background: var(--Dark-color);
+  border-radius: 4px;
+  border: 1px solid var(--White_background-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  width: 264px;
+  height: 40px;
 }
