@@ -698,7 +698,7 @@ input {
   margin-bottom: 16px;
 }
 .modal-form-container {
-  margin-bottom: 50px;
+  margin-bottom: 8px;
 }
 .form-name {
   font-size: 12px;
@@ -762,6 +762,12 @@ input {
   letter-spacing: 0.04em;
   color: var(--Subtle_Text-color);
 }
+.hidden {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .checkbox-icon {
   width: 16px;
   height: 16px;
