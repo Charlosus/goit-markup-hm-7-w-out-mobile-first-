@@ -663,10 +663,18 @@ input {
   font-weight: 400;
   line-height: 24px; /* 200% */
   letter-spacing: 0.48px;
-  background: var(--Dark-color);
+  background-color: transparent;
   border-radius: 4px;
   border: 1px solid var(--White_background-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   height: 40px;
+  line-height: 1.5;
+  padding-left: 16px;
+}
+.newsletter-email::placeholder {
+  color: var(--White_background-color);
+}
+.submit-icon {
+  margin-left: 16px;
 }
