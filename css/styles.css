@@ -617,6 +617,10 @@ img {
   width: 100%;
 }
 .subscribe-button {
+  height: 40px;
+  min-width: 165px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
@@ -626,7 +630,13 @@ img {
   background: var(--Primary_Brand-color);
   color: #ffffff;
   font-weight: 500;
+  cursor: pointer;
+  border: none;
 }
+.submit-icon {
+  margin-left: 16px;
+}
+
 .footer-subscribe {
   justify-content: flex-start;
 }
@@ -675,6 +685,7 @@ input {
 .newsletter-email::placeholder {
   color: var(--White_background-color);
 }
-.submit-icon {
-  margin-left: 16px;
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--Pressed_state-color);
 }
