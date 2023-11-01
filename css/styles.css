@@ -778,6 +778,13 @@ img {
   fill: transparent;
   margin-right: 8px;
 }
+
+.privacy-checkbox {
+  position: absolute;
+
+  transform: translate(8px, 16px);
+}
+
 .privacy-checkbox:checked + .privacy-agraemnt .checkbox-icon {
   background-color: var(--Pressed_state-color);
   border: none;
