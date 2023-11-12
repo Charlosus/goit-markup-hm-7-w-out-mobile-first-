@@ -830,7 +830,7 @@ img {
   background-color: var(--Pressed_state-color);
 }
 @media (max-width: 428px) {
-  .list {
+  .navigation {
     display: none;
   }
   .address {
@@ -840,13 +840,26 @@ img {
   }
   .modal-window {
   }
+  .effective {
+    font-size: 36px;
+  }
+  .order_button {
+    margin-top: 72px;
+  }
+  .worker-name-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
-@media screen and (max-width: 428px) {
+@media (max-width: 428px) {
+  h1 {
+    font-size: 36px;
+  }
   .container {
     display: flex;
-    width: 396px;
     flex-direction: column;
-    align-items: flex-start;
+    width: 396px;
     gap: 8px;
   }
   .first_section {
@@ -866,9 +879,84 @@ img {
     margin: auto;
   }
   .rectangle {
-    visibility: hidden;
+    display: none;
   }
-  .display {
+  .list-primery {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 72px;
+  }
+  .head_tertiary {
+    font-size: 36px;
+    text-align: center;
+  }
+  .third-section {
+    display: none;
+  }
+  .workers_section {
+    height: auto;
+  }
+  .worker_card {
+    width: max-content;
+  }
+  .workers_list {
+    align-items: center;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 16px) / 2);
+  }
+  .customers-list {
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 16px;
+  }
+  .footer {
+    height: auto;
+  }
+  .footer-container {
+    gap: 72px;
+  }
+  .footer-fist-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .footer-logo {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 18px;
+  }
+  .social-network-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-header {
+    text-align: center;
+  }
+  .footer-header {
+    width: 100%;
+  }
+  .social-network-links {
+    align-items: center;
+  }
+  .footer-links {
+    justify-content: center;
+  }
+  .footer-subscribe-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .email-input-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+  }
+  .newsletter-email {
+    width: 398px;
   }
 }
 .menu-toggle {
